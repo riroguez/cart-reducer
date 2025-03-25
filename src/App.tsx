@@ -6,6 +6,7 @@ import { handlePurchase } from './components/Whatsapp';
 import { useCartReducer } from './hooks/useCartReducer';
 
 function App() {
+  // useReducer de react
   const { state, dispatch } = useCartReducer();
   // const init = (): CartState => {
   //   const storedCart = localStorage.getItem('cart');
